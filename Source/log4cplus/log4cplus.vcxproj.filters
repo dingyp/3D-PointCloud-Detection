@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1e32fe37-3b95-44dc-9df1-144a36d82a93}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Appenders">
+      <UniqueIdentifier>{618ac5bc-5556-4e59-a3c1-285c2d9e80a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal">
+      <UniqueIdentifier>{b8a69ba5-bcc8-4b80-8b60-891bbd52f3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{8bacc780-31ab-4337-bd72-9f2322c6030b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spi">
+      <UniqueIdentifier>{eafab4fe-e4a7-4a1e-8fc3-eae7997ed650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{32a083ed-1e70-4c26-8357-4e4eeff37d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread\impl">
+      <UniqueIdentifier>{5c364c18-addf-4da4-a37c-15a1dee4d137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers">
+      <UniqueIdentifier>{78489271-5a5b-4622-96aa-18dae6086c42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="syncprims.cxx">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="threads.cxx">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cxx">
+      <Filter>spi</Filter>
+    </ClCompile>
+    <ClCompile Include="filter.cxx">
+      <Filter>spi</Filter>
+    </ClCompile>
+    <ClCompile Include="loggerimpl.cxx">
+      <Filter>spi</Filter>
+    </ClCompile>
+    <ClCompile Include="loglevel.cxx">
+      <Filter>spi</Filter>
+    </ClCompile>
+    <ClCompile Include="objectregistry.cxx">
+      <Filter>spi</Filter>
+    </ClCompile>
+    <ClCompile Include="rootlogger.cxx">
+      <Filter>spi</Filter>
+    </ClCompile>
+    <ClCompile Include="appender.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clogger.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="configurator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global-init.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hierarchy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hierarchylocker.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layout.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loggingevent.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loggingmacros.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mdc.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ndc.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="patternlayout.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="version.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="env.cxx">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="appenderattachableimpl.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="connectorthread.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="fileinfo.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="lockfile.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="loglog.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="logloguser.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="property.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="sleep.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="snprintf.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="socketbuffer.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="socket-win32.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="socket-unix.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="stringhelper.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="stringhelper-clocale.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="stringhelper-cxxlocale.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="stringhelper-iconv.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="timehelper.cxx">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="asyncappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="fileappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="log4judpappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="nteventlogappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="nullappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="socketappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="syslogappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="win32consoleappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+    <ClCompile Include="win32debugappender.cxx">
+      <Filter>Appenders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="thread\impl\syncprims-cxx11.h">
+      <Filter>thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\impl\syncprims-impl.h">
+      <Filter>thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\impl\syncprims-pmsm.h">
+      <Filter>thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\impl\syncprims-pthreads.h">
+      <Filter>thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\impl\syncprims-win32.h">
+      <Filter>thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\impl\threads-impl.h">
+      <Filter>thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\impl\tls.h">
+      <Filter>thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\syncprims.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\syncprims-pub-impl.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\threads.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="spi\appenderattachable.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="spi\factory.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="spi\filter.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="spi\loggerfactory.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="spi\loggerimpl.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="spi\loggingevent.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="spi\objectregistry.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="spi\rootlogger.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="loglevel.h">
+      <Filter>spi</Filter>
+    </ClInclude>
+    <ClInclude Include="appender.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clogger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.hxx">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configurator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fstreams.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hierarchy.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hierarchylocker.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layout.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loggingmacros.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mdc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ndc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="streams.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tchar.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tracelogger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstring.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\env.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\internal.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\socket.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\appenderattachableimpl.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\connectorthread.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\fileinfo.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\lockfile.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\loglog.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\logloguser.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\pointer.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\property.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\queue.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\sleep.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\snprintf.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\socket.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\socketbuffer.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\stringhelper.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\thread-config.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\timehelper.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="config\macosx.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\win32.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\windowsh-inc.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="asyncappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="fileappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="log4judpappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="nteventlogappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="nullappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="socketappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="syslogappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="win32consoleappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="win32debugappender.h">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\deviceappender.hxx">
+      <Filter>Appenders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="log4cplus.props" />
+    <None Include="log4cplus_debug.props" />
+    <None Include="log4cplus_release.props" />
+    <None Include="config\defines.hxx.in">
+      <Filter>config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="控件文件">
+      <UniqueIdentifier>{48eec302-c7c7-4696-866a-4297104685f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="控件头文件">
+      <UniqueIdentifier>{2fe6acae-834e-46d3-a83e-d1b84e2b1c4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RadarView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarViewDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarViewView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Points3DWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarPointsNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLinesNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeasureLineNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolBar24.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemConfigVarManager.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorCodingDlg.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditVC.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarAxisNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorLegendDlg.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorSetDlg.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRangeDlg.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GridSetDlg.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarSetDlg.h">
+      <Filter>控件头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyDockablePane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDataReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RadarView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RadarViewDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RadarViewView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Points3DWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RadarPointsNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLinesNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeasureLineNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayToolBar.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolBar24.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CColorToolBar.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemConfigVarManager.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorCodingDlg.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CColorCtrl.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditVC.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RadarAxisNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorLegendDlg.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorSetDlg.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRangeDlg.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSetDlg.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RadarSetDlg.cpp">
+      <Filter>控件文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyDockablePane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDataReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RadarView.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\RadarView.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\RadarViewDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\RadarView.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Basic24.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Color24.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\playback24.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\View24.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\View124.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\playback124.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\backward1_224.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\backward1_324.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\backward224.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\backward324.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\forward1_224.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\forward1_324.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\forward224.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\forward324.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\InitSystem.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Basic124.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

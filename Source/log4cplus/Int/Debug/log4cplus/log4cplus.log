@@ -1,0 +1,104 @@
+﻿  appender.cxx
+  appenderattachableimpl.cxx
+  asyncappender.cxx
+  clogger.cxx
+  configurator.cxx
+  connectorthread.cxx
+  consoleappender.cxx
+  env.cxx
+f:\radarview\source\log4cplus\appenderattachableimpl.cxx(22): fatal error C1083: 无法打开包括文件: “log4cplus/appender.h”: No such file or directory
+f:\radarview\source\log4cplus\consoleappender.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/layout.h”: No such file or directory
+f:\radarview\source\log4cplus\configurator.h(27): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory (编译源文件 configurator.cxx)
+f:\radarview\source\log4cplus\connectorthread.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/connectorthread.h”: No such file or directory
+f:\radarview\source\log4cplus\appender.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/appender.h”: No such file or directory
+f:\radarview\source\log4cplus\clogger.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/logger.h”: No such file or directory
+f:\radarview\source\log4cplus\asyncappender.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+f:\radarview\source\log4cplus\env.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/internal/env.h”: No such file or directory
+  factory.cxx
+  fileappender.cxx
+  fileinfo.cxx
+  filter.cxx
+  global-init.cxx
+f:\radarview\source\log4cplus\global-init.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+f:\radarview\source\log4cplus\fileappender.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/fileappender.h”: No such file or directory
+f:\radarview\source\log4cplus\fileinfo.cxx(26): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+f:\radarview\source\log4cplus\factory.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/spi/factory.h”: No such file or directory
+f:\radarview\source\log4cplus\filter.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/spi/filter.h”: No such file or directory
+  hierarchy.cxx
+  hierarchylocker.cxx
+  layout.cxx
+  lockfile.cxx
+  log4judpappender.cxx
+  logger.cxx
+  loggerimpl.cxx
+  loggingevent.cxx
+f:\radarview\source\log4cplus\hierarchy.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/hierarchy.h”: No such file or directory
+f:\radarview\source\log4cplus\hierarchylocker.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/hierarchylocker.h”: No such file or directory
+f:\radarview\source\log4cplus\logger.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/logger.h”: No such file or directory
+f:\radarview\source\log4cplus\loggingevent.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/spi/loggingevent.h”: No such file or directory
+f:\radarview\source\log4cplus\layout.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/layout.h”: No such file or directory
+f:\radarview\source\log4cplus\log4judpappender.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/log4judpappender.h”: No such file or directory
+f:\radarview\source\log4cplus\loggerimpl.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/internal/internal.h”: No such file or directory
+f:\radarview\source\log4cplus\lockfile.cxx(26): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+  loggingmacros.cxx
+  loglevel.cxx
+  loglog.cxx
+  logloguser.cxx
+  mdc.cxx
+  ndc.cxx
+  nteventlogappender.cxx
+f:\radarview\source\log4cplus\loglog.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/streams.h”: No such file or directory
+  nullappender.cxx
+f:\radarview\source\log4cplus\logloguser.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/logloguser.h”: No such file or directory
+f:\radarview\source\log4cplus\loggingmacros.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/internal/internal.h”: No such file or directory
+  objectregistry.cxx
+f:\radarview\source\log4cplus\mdc.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/mdc.h”: No such file or directory
+  patternlayout.cxx
+  pointer.cxx
+f:\radarview\source\log4cplus\nteventlogappender.cxx(20): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+  property.cxx
+f:\radarview\source\log4cplus\loglevel.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/loglevel.h”: No such file or directory
+f:\radarview\source\log4cplus\ndc.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/ndc.h”: No such file or directory
+f:\radarview\source\log4cplus\objectregistry.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/spi/objectregistry.h”: No such file or directory
+f:\radarview\source\log4cplus\nullappender.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/nullappender.h”: No such file or directory
+f:\radarview\source\log4cplus\patternlayout.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/layout.h”: No such file or directory
+  queue.cxx
+  rootlogger.cxx
+f:\radarview\source\log4cplus\property.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+f:\radarview\source\log4cplus\pointer.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/streams.h”: No such file or directory
+f:\radarview\source\log4cplus\queue.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+f:\radarview\source\log4cplus\rootlogger.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/spi/rootlogger.h”: No such file or directory
+  sleep.cxx
+  snprintf.cxx
+  socket-win32.cxx
+  socket.cxx
+f:\radarview\source\log4cplus\socket-win32.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+  socketappender.cxx
+f:\radarview\source\log4cplus\socket.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/loglog.h”: No such file or directory
+  socketbuffer.cxx
+  stringhelper-clocale.cxx
+  stringhelper-cxxlocale.cxx
+f:\radarview\source\log4cplus\sleep.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/config/windowsh-inc.h”: No such file or directory
+  stringhelper-iconv.cxx
+  stringhelper.cxx
+f:\radarview\source\log4cplus\snprintf.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/snprintf.h”: No such file or directory
+  syncprims.cxx
+f:\radarview\source\log4cplus\stringhelper-clocale.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/stringhelper.h”: No such file or directory
+f:\radarview\source\log4cplus\stringhelper-cxxlocale.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/stringhelper.h”: No such file or directory
+f:\radarview\source\log4cplus\stringhelper.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/stringhelper.h”: No such file or directory
+f:\radarview\source\log4cplus\stringhelper-iconv.cxx(25): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/stringhelper.h”: No such file or directory
+  syslogappender.cxx
+  threads.cxx
+  timehelper.cxx
+  version.cxx
+f:\radarview\source\log4cplus\socketbuffer.cxx(23): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/socketbuffer.h”: No such file or directory
+  win32consoleappender.cxx
+f:\radarview\source\log4cplus\syslogappender.cxx(20): fatal error C1083: 无法打开包括文件: “log4cplus/syslogappender.h”: No such file or directory
+  win32debugappender.cxx
+f:\radarview\source\log4cplus\version.cxx(24): fatal error C1083: 无法打开包括文件: “log4cplus/version.h”: No such file or directory
+f:\radarview\source\log4cplus\timehelper.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/helpers/timehelper.h”: No such file or directory
+f:\radarview\source\log4cplus\win32debugappender.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+f:\radarview\source\log4cplus\win32consoleappender.cxx(25): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+f:\radarview\source\log4cplus\threads.cxx(21): fatal error C1083: 无法打开包括文件: “log4cplus/config.hxx”: No such file or directory
+f:\radarview\source\log4cplus\socketappender.cxx(23): fatal error C1083: 无法打开包括文件: “log4cplus/socketappender.h”: No such file or directory
+f:\radarview\source\log4cplus\syncprims.cxx(27): fatal error C1083: 无法打开包括文件: “log4cplus/thread/syncprims-pub-impl.h”: No such file or directory
